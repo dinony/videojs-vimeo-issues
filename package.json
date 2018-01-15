@@ -12,6 +12,10 @@
   },
   "keywords": [],
   "author": "Onur D. <contact@dinony.com>",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:dinony/videojs-vimeo-issues.git"
+  },
   "license": "GPL-3.0",
   "dependencies": {
     "video.js": "^5.16",
