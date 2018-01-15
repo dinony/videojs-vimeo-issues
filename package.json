@@ -1,0 +1,27 @@
+{
+  "name": "videojs-vimeo-issues",
+  "version": "1.0.0",
+  "description": "Some issues with videojs-vimeo",
+  "main": "src/main.js",
+  "scripts": {
+    "dev": "webpack-dev-server"
+  },
+  "engines": {
+    "node": ">= 8.9.0",
+    "npm": ">= 5.6.0"
+  },
+  "keywords": [],
+  "author": "Onur D. <contact@dinony.com>",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "video.js": "^5.16",
+    "videojs-vimeo": "git+ssh://git@github.com/dinony/videojs-vimeo.git#patch-1"
+  },
+  "devDependencies": {
+    "css-loader": "^0.28.8",
+    "file-loader": "^1.1.6",
+    "style-loader": "^0.19.1",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.11.0"
+  }
+}
