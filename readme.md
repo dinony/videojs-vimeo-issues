@@ -1,6 +1,6 @@
 # videojs-vimeo Issues
 
-## durationchange / loadedmetadata
+## durationchange / loadedmetadata: [Issue 135](https://github.com/videojs/videojs-vimeo/issues/135)
 
 1. Clone project
 2. Open console and cd to directory
