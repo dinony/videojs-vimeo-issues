@@ -14,7 +14,7 @@
   * durationchange 42.562177 (Here duration is available)
   * loadedmetadata 42.562177 (Here duration is available)
 
-## new source
+## change source
 
 1. Clone project
 2. Open console and cd to directory
