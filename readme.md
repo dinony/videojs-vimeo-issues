@@ -13,3 +13,16 @@
   * durationchange NaN (Hmm, not expecting a NaN value here)
   * durationchange 42.562177 (Here duration is available)
   * loadedmetadata 42.562177 (Here duration is available)
+
+## new source
+
+1. Clone project
+2. Open console and cd to directory
+3. Checkout `issue-changesource` [tag](https://github.com/dinony/videojs-vimeo-issues/releases/tag/issue-changesource)
+4. Run `npm i && npm run dev`
+5. Open [browser](http://localhost:8080/)
+6. Click `SRC 1` button and observe in console
+  * SET SRC 1
+7. Click `SRC 2` button and observe in console
+  * SET SRC 2
+  * Uncaught exception: `VIDEOJS: TypeError: this.tech_[method] is not a function`

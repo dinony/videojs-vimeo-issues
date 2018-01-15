@@ -9,10 +9,6 @@ const player = videojs('player', {
   techOrder: ['html5', 'vimeo']
 })
 
-// player.on('ready', () => {
-//   console.log('ready')
-// })
-
 player.on('durationchange', () => {
   console.log('durationchange', player.duration())
 })
@@ -21,15 +17,15 @@ player.on('loadedmetadata', () => {
   console.log('loadedmetadata', player.duration())
 })
 
-const cBtn = document.getElementById('cVideo')
-const viBtn = document.getElementById('viVideo')
+const btn1 = document.getElementById('btn1')
+const btn2 = document.getElementById('btn2')
 
-cBtn.addEventListener('click', () => {
-  console.log('SET CUSTOM VIDEO')
-  player.src({type: 'video/mp4', src: 'http://dinony.com/projects/rv/Cars.mp4'})
+btn1.addEventListener('click', () => {
+  console.log('SET SRC 1')
+  player.src({type: 'video/vimeo', src: 'https://vimeo.com/190855745'})
 })
 
-viBtn.addEventListener('click', () => {
-  console.log('SET VIMEO VIDEO')
-  player.src({ type: 'video/vimeo', src: 'https://vimeo.com/190855745'})
+btn2.addEventListener('click', () => {
+  console.log('SET SRC 2')
+  player.src({ type: 'video/vimeo', src: 'https://vimeo.com/3100872'})
 })
