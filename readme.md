@@ -14,7 +14,7 @@
   * durationchange 42.562177 (Here duration is available)
   * loadedmetadata 42.562177 (Here duration is available)
 
-## change source
+## change source: [Issue 136](https://github.com/videojs/videojs-vimeo/issues/136)
 
 1. Clone project
 2. Open console and cd to directory
