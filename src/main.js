@@ -27,5 +27,5 @@ btn1.addEventListener('click', () => {
 
 btn2.addEventListener('click', () => {
   console.log('SET SRC 2')
-  player.src({ type: 'video/vimeo', src: 'https://vimeo.com/3100872'})
+  player.src({type: 'video/vimeo', src: 'https://vimeo.com/3100872'})
 })
